@@ -1,7 +1,28 @@
 @charset "UTF-8";
 
-body {
+.passion-one-regular {
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.passion-one-bold {
+  font-family: "Passion One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.passion-one-black {
+  font-family: "Passion One", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+html, body {
+    min-height: 100vh;
     margin: 0;
+    padding: 0;
 }
 
 header {
@@ -10,21 +31,40 @@ header {
     color: aliceblue;
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 100%;
+    word-break: break-all;
 }
 header h1 {
     font-size: 5.5em;
     margin-bottom: 0;
+    font-variant: small-caps;
+}
+header > p {
+    padding-bottom: 25px;
+}
+header a {
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 5px;
+    transition: background-color, 0.7s;
+    
+}
+a:hover {
+    background-color: rgba(255, 255, 255, 0.164);
+    border-radius: 7px;
+    padding: 5px;
 }
 
 main p {
     margin-left: 30px;
-    font-size: 3.5em;
+    font-size: 3em;
+    line-height: 2em;
+    font-family: 'Passion One';
 }
 
-.fundobranco {
-    
 
-}
 #joaninha {
     background-image: url(midia/img/imgjoaninha.jpg);
     background-position: center right;
@@ -57,11 +97,17 @@ main p {
     margin-left: 35px;
 }
 
+article {
+    max-width: 50%;
+}
+
 #rodape {
     background-color: black;
+    width: 100%;
     color: aliceblue;
     text-align: center;
-    padding: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     font-size: 20px;
     margin-bottom: 0;
 }
