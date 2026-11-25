@@ -57,48 +57,53 @@ a:hover {
     padding: 5px;
 }
 
+
 main p {
+    display: inline-block;
     margin-left: 30px;
     font-size: 3em;
     line-height: 2em;
     font-family: 'Passion One';
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.185);
 }
-
-
 #joaninha {
     background-image: url(midia/img/imgjoaninha.jpg);
     background-position: center right;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
 
     padding: 13px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.329);
 }
 #joaninha > article {
     background-color: rgba(0, 0, 0, 0.692);
     color: aliceblue;
     width: 600px;
     margin-left: 35px;
-}
+    border-radius: 5px;
 
+}
 #livros {
     background-image: url(midia/img/imglivros.jpg);
     background-position: center right;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
 
     padding: 13px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.315);
 }
 #livros > article {
     background-color: rgba(0, 0, 0, 0.692);
     color: aliceblue;
     width: 600px;
     margin-left: 35px;
+    border-radius: 5px;
 }
 
 article {
-    max-width: 50%;
+    max-width: 85%;
 }
 
 #rodape {
